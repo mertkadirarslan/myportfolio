@@ -76,7 +76,7 @@ const Status: React.FC = () => {
  
   if (loading === false && status?.discord_status === "offline" ) 
   return  <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"}  marginTop={"5"} _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
-  <Stack backgroundColor={useColorModeValue("gray.400", "gray.600")} rounded={"full"} width={"4"} height={4} margin={"auto"} alignItems={"center"}></Stack>
+   <Tooltip hasArrow label="Offline" placement="top"><Stack backgroundColor={useColorModeValue("gray.400", "gray.600")} rounded={"full"} width={"4"} height={4} margin={"auto"} alignItems={"center"}></Stack></Tooltip>
   <Text textColor={useColorModeValue("black", "white")} fontSize={"md"}  textAlign={"center"} margin={"1"}> Offline</Text>       
 </Box>
 
@@ -88,7 +88,7 @@ const Status: React.FC = () => {
     );
     else if ( loading === false && status?.discord_status === "online" && status?.listening_to_spotify === true)
     return ( <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
-    <Stack backgroundColor={"green.500"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack>
+   <Tooltip hasArrow label="Online" placement="top"><Stack backgroundColor={"green.500"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack></Tooltip> 
   <Text fontSize={"sm"} margin={"auto"} textAlign={"center"} marginRight={"5"} textColor={useColorModeValue("gray.400", "gray.600")}>Listening to</Text>
   <Stack marginRight={"5"} objectFit={"cover"} borderRadius={"50%"}>
                  {getImage().largeImage && (
@@ -123,7 +123,7 @@ const Status: React.FC = () => {
    else if ( loading === false && status?.discord_status === "dnd" && status?.listening_to_spotify === true)
    return (
     <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
-    <Stack backgroundColor={"red.500"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack>
+     <Tooltip hasArrow label="Disturbing" placement="top"><Stack backgroundColor={"red.500"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack></Tooltip>
   <Text fontSize={"sm"} margin={"auto"} textAlign={"center"} marginRight={"5"} textColor={useColorModeValue("gray.400", "gray.600")}>Listening to</Text>
   <Stack marginRight={"5"} objectFit={"cover"} borderRadius={"50%"}>
                  {getImage().largeImage && (
@@ -153,11 +153,12 @@ const Status: React.FC = () => {
   return ( <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
   <Stack backgroundColor={"yellow.400"} rounded={"full"} width={"4"} height={4} margin={"auto"} alignItems={"center"}></Stack>
   <Text textColor={useColorModeValue("black", "white")} fontSize={"md"} textAlign={"center"} margin={"1"}> Idled</Text>
-  </Box> );
+  </Box> 
+  );
    else if ( loading === false && status?.discord_status === "idle" && status?.listening_to_spotify === true)
    return (
     <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
-    <Stack backgroundColor={"yellow.400"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack>
+    <Tooltip hasArrow label="Idled" placement="top"><Stack backgroundColor={"yellow.400"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack></Tooltip>
   <Text fontSize={"sm"} margin={"auto"} textAlign={"center"} marginRight={"5"} textColor={useColorModeValue("gray.400", "gray.600")}>Listening to</Text>
   <Stack marginRight={"5"} objectFit={"cover"} borderRadius={"50%"}>
                  {getImage().largeImage && (
@@ -182,7 +183,7 @@ const Status: React.FC = () => {
               
   </Box> 
          
-   )
+   );
   else (status?.discord_status === "invisible")
   return ( <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
   <Stack backgroundColor={useColorModeValue("gray.400", "gray.600")} rounded={"full"} width={"4"} height={4} margin={"auto"} alignItems={"center"}></Stack>
