@@ -9,6 +9,7 @@ import {
   UnorderedList,
   ListItem,
   useColorModeValue
+  Tooltip
 } from "@chakra-ui/react";
 import { MotionBox, MotionFlex } from "components/ui/motion";
 import Header from "components/layout/header";
@@ -55,7 +56,6 @@ const Home: React.FC<Props> = props => {
             src={"https://avatars.githubusercontent.com/u/77637289?v=4"}
           />
          </Tooltip>
-
         </MotionBox>
         <MotionFlex
           ml={["auto", "auto", 16]}

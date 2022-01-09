@@ -9,6 +9,7 @@ import {
   UnorderedList,
   ListItem,
   useColorModeValue
+  Tooltip
 } from "@chakra-ui/react";
 import { useLanyard } from "react-use-lanyard";
 import Image from "next/image";

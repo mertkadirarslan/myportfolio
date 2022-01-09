@@ -6,6 +6,7 @@ import {
   Text,
   useColorModeValue,
   Flex
+  Tooltip
 } from "@chakra-ui/react";
 import siteConfig from "../../configs/site-config";
 
