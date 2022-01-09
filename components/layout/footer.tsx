@@ -45,7 +45,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Mert Kadir{" "}
         </Text>
         { <Box textColor={useColorModeValue("gray.600","gray.300")} fontSize="sm" textAlign="left">
-          v2.5.0
+          
           <Tooltip  hasArrow label="--version 2.5.0" placement="top">
         <Box
           as="span"
