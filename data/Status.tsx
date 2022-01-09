@@ -8,7 +8,7 @@ import {
   Link,
   UnorderedList,
   ListItem,
-  useColorModeValue
+  useColorModeValue,
   Tooltip
 } from "@chakra-ui/react";
 import { useLanyard } from "react-use-lanyard";

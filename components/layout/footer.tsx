@@ -5,7 +5,7 @@ import {
   Box,
   Text,
   useColorModeValue,
-  Flex
+  Flex,
   Tooltip
 } from "@chakra-ui/react";
 import siteConfig from "../../configs/site-config";
