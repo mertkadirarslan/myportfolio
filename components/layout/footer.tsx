@@ -44,7 +44,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Mert Kadir{" "}
         </Text>
         { <Box textColor={useColorModeValue("gray.600","gray.300")} fontSize="sm" textAlign="left">
-          v2.0.0
+          v2.5.0
         <Box
           as="span"
           mx="2"
@@ -54,7 +54,7 @@ const Footer = () => {
           }}
           _hover={{
             _before: {
-              content: '"👨‍💻"'
+              content: '"💻"'
             }
           }}
            

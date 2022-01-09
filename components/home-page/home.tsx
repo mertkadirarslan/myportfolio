@@ -51,7 +51,7 @@ const Home: React.FC<Props> = props => {
           backgroundColor={'transparent'}
             size={"2xl"}
             // src={UserIcon}
-            src={"/assets/images/user_icon.png"}
+            src={"https://avatars.githubusercontent.com/u/77637289?v=4"}
           />
 
         </MotionBox>
