@@ -1,14 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
-  "/achievements": "pages/achievements.js",
-  "/blog": "pages/blog.js",
-  "/blog/[slug]": "pages/blog/[slug].js",
-  "/developer-story": "pages/developer-story.js",
-  "/": "pages/index.js",
-  "/open-source": "pages/open-source.js",
-  "/projects": "pages/projects.js",
-  "/tech-stack": "pages/tech-stack.js",
-  "/_error": "pages/_error.js"
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js"
 }
