@@ -18,7 +18,7 @@ import { BsFillBriefcaseFill } from "react-icons/bs";
 
 const title = "Projects 📚";
 const subtitle =
-  "A selection of projects I've worked on, during my career as a software developer. (being designed)";
+  "A selection of projects I've worked on, during my career as a software developer.";
 
 const TURQUOISE = "#06b6d4";
 

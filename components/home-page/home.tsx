@@ -166,7 +166,7 @@ const Home: React.FC<Props> = props => {
                   <Link color={linkColor}>
                   Projects page
                   <Badge ml="1" colorScheme="red">
-                  being designed
+                  New
                     </Badge>
                   </Link>
                 </NextLink>

@@ -121,18 +121,14 @@ const Status: React.FC = () => {
 <Box display={"flex"} flexWrap={"nowrap"} float={"left"} padding={"5"} marginTop={"5"}  _hover={{ shadow: "lg" }}  backgroundColor={useColorModeValue("gray.100", "#1e2533")} rounded={"md"}>
     <Tooltip hasArrow label="Idled" placement="top"><Stack backgroundColor={"yellow.400"} rounded={"full"} width={"4"} height={4} margin={"auto"} marginRight={"5"} alignItems={"center"}></Stack></Tooltip>
   <Text fontSize={"sm"} margin={"auto"} textAlign={"center"} marginRight={"5"} textColor={useColorModeValue("gray.400", "gray.600")}>Listening to</Text>
-  <Stack marginRight={"5"} objectFit={"cover"} borderRadius={"50%"}>
-             
+  <Stack marginRight={"5"} objectFit={"cover"} borderRadius={"full"} rounded= {"full"}>    
                  {getImage().largeImage && (
-                   <Image
+                   <Image 
                      src={getImage().largeImage || ""}
                      width="80px"
                      height="80px"
                      alt="icon"
-                     draggable="true"
-                     objectFit="cover"
-                     className="rounded-lg"
-                     
+                    objectFit="cover"
                    />
                  )}
                  
