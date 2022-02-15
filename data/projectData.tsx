@@ -10,7 +10,7 @@ export const projectsList = [
   },
   {
     title: "Basic Fruit Ninja ",
-    imageLight: '/assets/images/projects/cover/basicfurit.png',
+    imageLight: '//public/assets/images//projects//cover//basicfurit.png',
     blurHash: "L4ADc400P*Zi4Tu1y;Qo00pH#YXl",
     site: "https://dev.to/mert_kadir/basic-fruit-ninja-1154",
     description: `Basic-Fruit-Ninja this game is made using the libGDX library.`,
