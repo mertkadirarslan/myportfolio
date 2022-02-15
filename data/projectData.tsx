@@ -9,7 +9,7 @@ export const projectsList = [
     techStack: ["FireBase", "XML", "Java", "Basic"]
   },
   {
-    title: "Basic Fruit Ninja",
+    title: "Basic Fruit Ninja ",
     imageLight: '/assets/images/projects/cover/basicfurit.png',
     blurHash: "L4ADc400P*Zi4Tu1y;Qo00pH#YXl",
     site: "https://dev.to/mert_kadir/basic-fruit-ninja-1154",
