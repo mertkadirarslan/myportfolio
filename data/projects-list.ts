@@ -5,6 +5,7 @@
 // import gosave from "assets/images/projects/gosave.png";
 
 export const projectsList = [
+  /*
   {
     id: 1,
     title: "Peterpitch",
@@ -15,5 +16,5 @@ export const projectsList = [
     desc: `Peterpitch is a tool that takes the fun in your company seriously and turns your meetings into real performance boosters. With Peterpitch, you round up the pack of employees and turn even the shakiest puppies into true wolves.`,
     technologies: ["rails", "react", "javascript"]
   },
-
+*/
 ];
