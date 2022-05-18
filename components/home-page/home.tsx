@@ -49,13 +49,13 @@ const Home: React.FC<Props> = props => {
           mb={[16, 16, "auto"]}
         >
            <Tooltip hasArrow label="me" placement="bottom">
-             <MotionBox whileHover={{ scale: 1.2 }} rounded="full" shadow="lg"> 
+              
           <Avatar
           backgroundColor={'transparent'}
             // src={UserIcon}
             src={"https://avatars.githubusercontent.com/u/77637289?v=4"}
           />
-          </MotionBox >
+          
          </Tooltip>
         </MotionBox>
         <MotionFlex
@@ -99,7 +99,7 @@ const Home: React.FC<Props> = props => {
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-          Hey, Welcome to Mert's Digital Environment. &apos;
+          Hey, Welcome to Mert's Digital Environment. 
           A place to share what I've learned and what I've done.😊
           </Box>
         </MotionFlex>
