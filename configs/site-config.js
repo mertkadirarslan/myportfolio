@@ -19,7 +19,7 @@ const siteConfig = {
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/mertisfly",
+        url: "https://twitter.com/itsmertkadir",
         label: "Twitter Account",
         type: "twitter",
         icon: <FaTwitter />
