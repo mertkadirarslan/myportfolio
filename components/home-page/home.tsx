@@ -49,13 +49,12 @@ const Home: React.FC<Props> = props => {
           mb={[16, 16, "auto"]}
         >
            <Tooltip hasArrow label="me" placement="bottom">
-              
           <Avatar
           backgroundColor={'transparent'}
+          size={'2xl'}
             // src={UserIcon}
             src={"https://avatars.githubusercontent.com/u/77637289?v=4"}
           />
-          
          </Tooltip>
         </MotionBox>
         <MotionFlex
